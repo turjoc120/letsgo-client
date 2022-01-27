@@ -1,0 +1,29 @@
+#make-admin-title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+#make-admin input[type="email"] {
+  display: block;
+  display: inline-block;
+  width: 40%;
+  padding: 10px 0 10px 15px;
+  border: none;
+  border-bottom: 1px solid blue;
+  outline: none;
+}
+
+#make-admin input[type="submit"] {
+  display: block;
+  padding: 15px 30px;
+  margin-top: 20px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+}

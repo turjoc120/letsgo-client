@@ -1,0 +1,134 @@
+#registration-page {
+  width: 100%;
+  margin-top: 87px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.registration-page-container {
+  width: 40%;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0 0 50px #fff;
+  padding-bottom: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.registration-page-title {
+  text-align: center;
+}
+
+.registration-page-title h1 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Bitter", serif;
+  padding-top: 20px;
+  color: #333;
+}
+
+.registration-page-title h6 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #333;
+}
+
+#registration-form {
+  margin-top: 30px;
+}
+
+.registration-form-design {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.single-registration-input-area {
+  width: 47.5%;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.single-registration-input-area label {
+  color: gray;
+}
+
+.single-registration-input-area input {
+  display: block;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px 0 10px 15px;
+  margin-top: 3px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.single-registration-input-area small {
+  color: red;
+  font-size: 10px;
+  position: absolute;
+  top: 105%;
+}
+
+
+
+.other-registration-options-section {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.other-registration-section-title h2 {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  color: #333;
+  margin-top: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+}
+
+
+.other-registration-options {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+
+
+.other-registration-options div img {
+  width: 30px;
+  height: 30px;
+ 
+}
+
+.registration-to-login small {
+  display: block;
+  text-align: center;
+  color: #333;
+  margin-top: 15px;
+}
+
+.registration-to-login small a {
+  text-decoration: none;
+  color: red;
+  margin-left: 8px;
+  font-family: "Bitter", serif;
+  font-weight: 400;
+}
+
+.registration-to-login small a:hvoer {
+  text-decoration: underline;
+}

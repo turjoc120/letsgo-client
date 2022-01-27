@@ -1,0 +1,102 @@
+/**********************
+***import google font**
+***********************/
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Open+Sans&family=Poppins:wght@100;300;400;500&family=Roboto+Condensed&display=swap");
+
+/**********************
+***start main stytle***
+***********************/
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgb(180, 140, 8);
+
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 9%;
+}
+
+.header-container .logo {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.menu nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  display: block;
+  color: #666;
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.menu ul li a:hover {
+  color: #bac34e;
+}
+
+#dashboard {
+  background-color: rgb(255, 255, 255);
+  color: #333;
+
+}
+
+.icons {
+  display: none;
+}
+
+.header .icons div {
+  font-size: 25px;
+  cursor: pointer;
+  margin-left: 15px;
+  color: #666;
+}
+
+.header .icons div:hover {
+  color: #bac34e;
+}
+
+@media screen and (max-width: 480px) {
+  .icons {
+    display: block;
+    color: #fff;
+  }
+
+  #menu-btn {
+    color: #fff;
+  }
+
+  .menu nav ul {
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+    top: -300px;
+    left: 0;
+    background-color: red;
+    margin-top: 50px;
+  }
+
+  #dashboard {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+  }
+}

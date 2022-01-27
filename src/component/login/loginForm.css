@@ -1,0 +1,101 @@
+#login-page {
+  margin-top: 100px;
+}
+
+.login-page-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-page-image {
+  width: 50%;
+}
+
+.login-page-image img {
+  width: 90%;
+}
+
+.login-form-section {
+  width: 45%;
+}
+
+.login-form-title h2 {
+  font-size: 30px;
+  font-family: "Bitter", serif;
+  font-weight: 400;
+}
+.login-form-title h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.login-form-section form {
+  margin-top: 20px;
+}
+.login-form-design {
+  position: relative;
+}
+
+.login-form-design label {
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+.login-form-design input {
+  width: 70%;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px 0 10px 15px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.login-form-design small {
+  color: red;
+  font-size: 10px;
+  position: absolute;
+  top: 105%;
+}
+
+.login-form-submit-btn-and-other {
+  margin-top: 40px;
+}
+
+
+
+.login-form-submit-btn-and-other {
+  display: flex;
+  align-items: center;
+}
+
+.login-form-submit-btn-and-other small {
+  display: inline-block;
+  margin-left: 130px;
+  font-size: 14px;
+}
+
+.login-form-submit-btn-and-other small:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.other-login-option-section {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+
+
+.other-login-options div img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
